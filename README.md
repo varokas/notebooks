@@ -1,4 +1,4 @@
-# Notebooks
+# Notebook
 Example of using python data tools in jupyter notebook
 
 ## Prerequisite
@@ -21,3 +21,12 @@ To run gui for anaconda
 ```
 anaconda-navigator
 ```
+
+## Anaconda Environments and Packages
+```
+conda create -n notebooks python=3.7
+
+source activate notebooks 
+conda install jupyterlab matplotlib numpy pandas scipy scikit-learn
+```
+
